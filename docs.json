@@ -1,102 +1,106 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Creatr",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1C1C1C",
+    "light": "#FFFFFF",
+    "dark": "#1C1C1C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon-32x32.png",
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
+        "group": "Get Started",
+        "pages": [
+          "introduction/what-is-creatr",
+          "introduction/getting-started"
         ]
       },
       {
-        "tab": "API Reference",
-        "groups": [
+        "group": "Using Creatr",
+        "pages": [
+          "using/enter-the-prompt",
+          "using/dashboard-overview",
+          "using/editing-and-deployment"
+        ]
+      },
+      {
+        "group": "Integrations",
+        "pages": [
           {
-            "group": "API Documentation",
+            "group": "Supabase",
             "pages": [
-              "api-reference/introduction"
+              "integrations/supabase/introduction",
+              "integrations/supabase/how-to",
+              "integrations/supabase/edge-functions"
             ]
           },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
+          "integrations/openai",
+          "integrations/resend"
+        ]
+      },
+      {
+        "group": "Connecting a third-party domain to Creatr",
+        "pages": [
+          "custom-domains-guides/custom-domain"
+        ]
+      },
+      {
+        "group": "Advanced Features & Customizations",
+        "pages": [
+          "advanced/attachments",
+          "advanced/enhancing-prompts",
+          "advanced/components-and-select-elements",
+          "advanced/forking-projects",
+          "advanced/export-options"
+        ]
+      },
+      {
+        "group": "Project Management & Analytics",
+        "pages": [
+          "management/project-analytics",
+          "management/changing-assets"
+        ]
+      },
+      {
+        "group": "Support & Resources",
+        "pages": [
+          "support/contact-support",
+          "support/knowledge-base"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Creatr",
+          "href": "https://getcreatr.com"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logos/creatr-text-dark.svg",
+    "dark": "/logos/creatr-text-light.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@getcreatr.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://getcreatr.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/getcreatr",
+      "linkedin": "https://www.linkedin.com/company/getcreatr"
     }
   }
 }
