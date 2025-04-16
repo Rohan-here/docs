@@ -1,0 +1,61 @@
+---
+title: 'Connecting a GoDaddy domain to Creatr'
+description: 'Learn how to connect your GoDaddy domain to your Creatr store'
+---
+
+
+### On this page
+
+- [Step 1: Log in to your GoDaddy account](#step-1-log-in-to-your-godaddy-account)
+- [Step 2: Update the A records](#step-2-update-the-a-records)
+- [Step 3: Update the CNAME records](#step-3-update-the-cname-records)
+- [Step 4: Connect your domain to Creatr](#step-4-connect-your-domain-to-creatr)
+- [Step 5: Verify connection](#step-5-verify-connection)
+- [Troubleshooting](#troubleshooting)
+
+### Step 1: Log in to your GoDaddy account
+
+1. Open a new browser tab, and then log in to your **GoDaddy Domain Portfolio**.
+2. Select the domain that you want to connect to Creatr.
+3. Click **DNS**.
+
+### Step 2: Update the A records
+
+1. Locate the **A** record, and then click the pencil icon.
+2. Enter the following **A** record to your DNS settings:
+   - Type: **A**
+   - Name: **@**
+   - Data: **23.227.38.65**
+   - TTL: **1 hour**
+3. Click **Save**.
+
+### Step 3: Update the CNAME records
+
+1. Locate the **CNAME** record, and then click the pencil icon.
+2. Enter the following **CNAME** record to your DNS settings:
+   - Type: **CNAME**
+   - Name: **www**
+   - Value: **shops.mycreatr.com**
+   - TTL: **1 hour**
+3. Click **Save**.
+
+### Step 4: Connect your domain to Creatr
+
+1. From your Creatr admin, go to **Settings** \> **Domains**.
+2. Click **Connect existing domain**.
+3. Type the name of the domain that you want to connect, and then click **Next**.
+
+### Step 5: Verify connection
+
+1. From your Creatr admin, go to **Settings** \> **Domains**.
+2. Click the domain that you connected in step 4.
+3. Click **Verify Connection**. Your domain will start the verification process, which can take up to 48 hours.
+4. After your domain is verified, it will be displayed as connected on the **Domains** page in your Creatr admin.
+
+> **Note**
+>
+> It's normal to have a warning stating, `Domain connection incomplete`, because some providers can take longer to verify the connection. In the error message, click **Add domain**, and Creatr automatically handles the verification process for you.
+
+## Troubleshooting
+
+If the message **This domain is already connected to another Creatr store is displayed**, then you need to **verify your domain ownership**. Learn more about **troubleshooting issues with domains connected to Creatr**.
