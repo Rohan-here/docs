@@ -36,8 +36,7 @@
               "integrations/supabase/edge-functions"
             ]
           },
-          "integrations/openai",
-          "integrations/resend"
+          "integrations/openai"
         ]
       },
       {
